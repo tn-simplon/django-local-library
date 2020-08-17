@@ -20,7 +20,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'w-c@#3xr$zh-5&6%2=_fuhvt@w36a3
 #DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tranquil-gorge-46540.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
